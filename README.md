@@ -157,3 +157,18 @@ sh script/run.sh
 ## Citation
 
 If you find our repo useful for your research, please consider citing our paper:
+
+    @misc{wu2024draganything,
+          title={DragAnything: Motion Control for Anything using Entity Representation}, 
+          author={Weijia Wu, Zhuang Li, Yuchao Gu, Rui Zhao, Yefei He, David Junhao Zhang, Mike Zheng Shou, Yan Li, Tingting Gao, Di Zhang},
+          year={2024},
+          eprint={2403.07420},
+          archivePrefix={arXiv},
+          primaryClass={cs.CV}
+    }
+
+## 🤗Acknowledgements
+- Thanks to [Diffusers](https://github.com/huggingface/diffusers) for the wonderful work and codebase.
+- Thanks to [Evaluation-Agent](https://github.com/Vchitect/Evaluation-Agent) for the wonderful work and codebase.
+
+
