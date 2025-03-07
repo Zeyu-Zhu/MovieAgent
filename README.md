@@ -12,11 +12,10 @@
 </div>
 
 
-<video width="600" autoplay loop muted playsinline>
-  <source src="./assets/demo_resize.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
+
+
+![MovieAgent Demo](./assets/demo.gif)
 
 
 
