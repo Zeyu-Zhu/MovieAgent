@@ -13,6 +13,18 @@
 
 
 
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+  <img src="./assets/logo.png" alt="MovieAgent Logo" width="150" style="margin-right: 15px;">
+  <div>
+    <h3>MovieAgent: Automated Movie Generation via Multi-Agent CoT Planning</h3>
+    <a href="https://weijiawu.github.io/draganything_page/">
+      <img src="https://img.shields.io/static/v1?label=Project%20Page&message=Github&color=blue&logo=github-pages">
+    </a> &ensp;
+    <a href="https://arxiv.org/abs/2403.07420/">
+      <img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv&color=red&logo=arxiv">
+    </a>
+  </div>
+</div>
 
 
 ![MovieAgent Demo](./assets/demo.gif)
