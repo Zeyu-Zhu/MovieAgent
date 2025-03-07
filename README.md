@@ -1,7 +1,7 @@
 # MovieAgent
 
 <p align="center">
-  <img src="./assets//logo.png" alt="MovieAgent Logo" width="100">
+  <img src="./assets//logo.png" alt="MovieAgent Logo" width="200">
 </p>
 
 ### <div align="center"> MovieAgent: Automated Movie Generation via Multi-Agent CoT Planning <div> 
@@ -11,10 +11,14 @@
   <a href="https://arxiv.org/abs/2403.07420/"><img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv&color=red&logo=arxiv"></a> &ensp;
 </div>
 
-<p align="center">
-<img src="./assets/structure.jpg" width="800px"/>  
-<br>
-</p>
+
+<video width="600" autoplay loop muted playsinline>
+  <source src="./assets/demo_resize.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+
 
 ## :notes: **Updates**
 
@@ -29,10 +33,10 @@ Existing long-form video generation frameworks lack automated planning and often
 
 ---
 
-<video width="600" autoplay loop muted playsinline>
-  <source src="./assets/demo_resize.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<p align="center">
+<img src="./assets/structure.png" width="800px"/>  
+<br>
+</p>
 
 
 
