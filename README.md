@@ -8,10 +8,10 @@
     <td><img src="./assets/logo.png" alt="MovieAgent Logo" width="180"></td>
     <td>
       <h3>MovieAgent: Automated Movie Generation via Multi-Agent CoT Planning</h3>
-      <a href="https://weijiawu.github.io/draganything_page/">
+      <a href="https://weijiawu.github.io/MovieAgent/">
         <img src="https://img.shields.io/static/v1?label=Project%20Page&message=Github&color=blue&logo=github-pages">
       </a> &ensp;
-      <a href="https://arxiv.org/abs/2403.07420/">
+      <a href="https://arxiv.org/abs/2503.07314">
         <img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv&color=red&logo=arxiv">
       </a>
     </td>
@@ -158,11 +158,11 @@ sh script/run.sh
 
 If you find our repo useful for your research, please consider citing our paper:
 
-    @misc{wu2024draganything,
-          title={DragAnything: Motion Control for Anything using Entity Representation}, 
-          author={Weijia Wu, Zhuang Li, Yuchao Gu, Rui Zhao, Yefei He, David Junhao Zhang, Mike Zheng Shou, Yan Li, Tingting Gao, Di Zhang},
-          year={2024},
-          eprint={2403.07420},
+    @misc{wu2025movieagent,
+          title={Automated Movie Generation via Multi-Agent CoT Planning}, 
+          author={Weijia Wu, Zeyu Zhu, Mike Zheng Shou},
+          year={2025},
+          eprint={2503.07314},
           archivePrefix={arXiv},
           primaryClass={cs.CV}
     }
