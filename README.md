@@ -144,6 +144,23 @@ CUDA_VISIBLE_DEVICES=4  python sample_single_for_fusion.py
 
 
 
+### Image-Video Gen. Model - HunyuanVideo_I2V 
+Step 1: Download HunyuanVideo-I2V model
+```bash
+python -m pip install "huggingface_hub[cli]"
+
+# Switch to the directory named 'HunyuanVideo-I2V'
+cd movie_agent/models/HunyuanVideo_I2V
+
+# Use the huggingface-cli tool to download HunyuanVideo-I2V model in HunyuanVideo-I2V/ckpts dir.
+huggingface-cli download tencent/HunyuanVideo-I2V --local-dir ./ckpts
+
+# Download Text Encoder.
+cd HunyuanVideo-I2V/ckpts
+huggingface-cli download xtuner/llava-llama-3-8b-v1_1-transformers --local-dir ./text_encoder_i2v
+huggingface-cli download openai/clip-vit-large-patch14 --local-dir ./text_encoder_2
+```
+
 
 ### Generate Movie/Long Video
 
