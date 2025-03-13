@@ -93,12 +93,12 @@ The reasoning process using agents may involve various image and video generatio
 
 | LLM (Language Model) | Image Gen. (Image Generation) | Video Gen. (Video Generation) |
 |----------------------|------------------------------|------------------------------|
-| GPT4-o               | ROICtrl                   | SVD                            |
+| GPT4-o               | ROICtrl                   | SVD/HunyuanVideo_I2V             |
 
 
 
 ### Image Gen. Model - ROICtrl 
-You can train by yourself following the [Guidance]().
+You can train by yourself following the [Guidance](https://github.com/showlab/MovieAgent/tree/main/movie_agent/models/ROICtrl).
 
 Or download our weight directly:
 
