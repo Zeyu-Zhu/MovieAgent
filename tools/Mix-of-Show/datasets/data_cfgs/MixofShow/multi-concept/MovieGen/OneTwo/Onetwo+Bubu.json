@@ -1,0 +1,13 @@
+[{
+        "lora_path": "experiments/OneTwo/Onetwo/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Onetwo1> <Onetwo2>"
+    }
+,{
+        "lora_path": "experiments/OneTwo/Bubu/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Bubu1> <Bubu2>"
+    }
+]

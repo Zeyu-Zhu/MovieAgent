@@ -1,0 +1,49 @@
+[{
+        "lora_path": "experiments/InsideOut2/Anxiety/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Anxiety1> <Anxiety2>"
+    }
+,{
+        "lora_path": "experiments/InsideOut2/Sadness/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Sadness1> <Sadness2>"
+    }
+,{
+        "lora_path": "experiments/InsideOut2/Joy/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Joy1> <Joy2>"
+    }
+,{
+        "lora_path": "experiments/InsideOut2/Disgust/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Disgust1> <Disgust2>"
+    }
+,{
+        "lora_path": "experiments/InsideOut2/Anger/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Anger1> <Anger2>"
+    }
+,{
+        "lora_path": "experiments/InsideOut2/Riley/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Riley1> <Riley2>"
+    }
+,{
+        "lora_path": "experiments/InsideOut2/Envy/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Envy1> <Envy2>"
+    }
+,{
+        "lora_path": "experiments/InsideOut2/Fear/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Fear1> <Fear2>"
+    }
+]

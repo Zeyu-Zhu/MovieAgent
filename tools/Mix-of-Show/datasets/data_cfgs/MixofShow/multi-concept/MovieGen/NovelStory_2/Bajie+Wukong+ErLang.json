@@ -1,0 +1,19 @@
+[{
+        "lora_path": "experiments/NovelStory_2/Bajie/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Bajie1> <Bajie2>"
+    }
+,{
+        "lora_path": "experiments/NovelStory_2/Wukong/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Wukong1> <Wukong2>"
+    }
+,{
+        "lora_path": "experiments/NovelStory_2/ErLang/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<ErLang1> <ErLang2>"
+    }
+]

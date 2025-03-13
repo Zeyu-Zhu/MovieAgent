@@ -1,0 +1,13 @@
+{
+    "MovieScript": "When a long-lost prophecy is uncovered by Professor Sybil Trelawney, Albus Dumbledore realizes that a hidden dark force threatens the wizarding world.   Harry Potter, Hermione Granger, and Ron Weasley are drawn into the mystery, seeking guidance from Professor Lupin and uncovering cryptic clues left by Professor Severus Snape.   As Rubeus Hagrid helps them navigate dangerous magical creatures, they discover that an ancient relic holds the key to stopping the impending darkness.",
+    "Character": [
+        "AlbusDumbledore",
+        "HarryPotter",
+        "HermioneGranger",
+        "ProfessorLupin",
+        "ProfessorSeverusSnape",
+        "ProfessorSybilTrelawney",
+        "RonWeasley",
+        "RubeusHagrid"
+    ]
+}

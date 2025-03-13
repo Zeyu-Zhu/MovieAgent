@@ -1,0 +1,36 @@
+output_dir: results/movie_keypose
+image_width: 1024
+
+layout1:
+  output_image: "0001_American_Beauty_00.04.03.037-00.04.04.552.png"
+  box_layout:
+    - [100, 50, 400, 462]  # Carolyn Burnham
+    - [524, 55, 400, 457]  # Lester Burnham
+  keypose_path:
+    - "/workspace/wuweijia/MovieGen/STORY/experiments-Carolyn_Cmix/visualization/iters_EDLoRA_Barbara_Cmix_B4_Iter1K_negprompt/1_grounding_dino_pose/iters_EDLoRA_Barbara_Cmix_B4_Iter1K_negprompt/1/pose.png"
+    - "/workspace/wuweijia/MovieGen/STORY/experiments-Barbara_Cmix/visualization/iters_EDLoRA_Barbara_Cmix_B4_Iter1K_negprompt/1_grounding_dino_pose/iters_EDLoRA_Barbara_Cmix_B4_Iter1K_negprompt/1/pose.png"
+
+
+#  [('Barbara Cmix, standing on the street', [100, 50, 400, 462]), ('Carolyn Cmix, standing on the street', [524, 55, 400, 457])]
+
+# layout2:
+#   output_image: "0001_American_Beauty_00.04.05.082-00.04.08.693.png"
+#   box_layout:
+#     - [183, 144, 141, 173]  # "Carolyn Burnham"
+#     - [141, 181, 115, 153]  # "Jane Burnham"
+#     - [274, 220, 145, 171]  # "Lester Burnham"
+#   keypose_path:
+#     - "results/EDLoRA_Carolyn_Burnham_Cmix_B4_Iter1K/visualization/iters_EDLoRA_Carolyn_Burnham_Cmix_B4_Iter1K_negprompt_grounding_dino_pose/iters_EDLoRA_Carolyn_Burnham_Cmix_B4_Iter1K_negprompt/A <Carolyn_Burnham1> <Carolyn_Burnham2>, wearing a suit, sunglasses, driving/A_<Carolyn_Burnham1>_<Carolyn_Burnham2>,_wearing_a_suit,_sunglasses,_driving---G_7.5_S_50---1---EDLoRA_Carolyn_Burnham_Cmix_B4_Iter1K_negprompt_pose.png"
+#     - "results/EDLoRA_Jane_Burnham_Cmix_B4_Iter1K/visualization/iters_EDLoRA_Jane_Burnham_Cmix_B4_Iter1K_negprompt_grounding_dino_pose/iters_EDLoRA_Jane_Burnham_Cmix_B4_Iter1K_negprompt/A <Jane_Burnham1> <Jane_Burnham2>, dark hair, wearing a dark outfit, looking out the window/A_<Jane_Burnham1>_<Jane_Burnham2>,_dark_hair,_wearing_a_dark_outfit,_looking_out_the_window---G_7.5_S_50---1---EDLoRA_Jane_Burnham_Cmix_B4_Iter1K_negprompt_pose.png"
+#     - "results/EDLoRA_Lester_Burnham_Cmix_B4_Iter1K/visualization/iters_EDLoRA_Lester_Burnham_Cmix_B4_Iter1K_negprompt_grounding_dino_pose/iters_EDLoRA_Lester_Burnham_Cmix_B4_Iter1K_negprompt/A <Lester_Burnham1> <Lester_Burnham2>, sitting in the backseat, holding a briefcase, appears tired/A_<Lester_Burnham1>_<Lester_Burnham2>,_sitting_in_the_backseat,_holding_a_briefcase,_appears_tired---G_7.5_S_50---2---EDLoRA_Lester_Burnham_Cmix_B4_Iter1K_negprompt_pose.png"
+
+# layout3:
+#   output_image: "0001_American_Beauty_00.04.12.169-00.04.18.224.png"
+#   box_layout:
+#     - [381, 214, 100, 150]  # "Lester Burnham"
+#     - [150, 190, 110, 170]  # "Carolyn Burnham"
+#     - [250, 190, 110, 170]  # "Jane Burnham"
+#   keypose_path:
+#     - "results/EDLoRA_Lester_Burnham_Cmix_B4_Iter1K/visualization/iters_EDLoRA_Lester_Burnham_Cmix_B4_Iter1K_negprompt_grounding_dino_pose/iters_EDLoRA_Lester_Burnham_Cmix_B4_Iter1K_negprompt/A <Lester_Burnham1> <Lester_Burnham2>, wearing a suit, sleeping in the back seat/A_<Lester_Burnham1>_<Lester_Burnham2>,_wearing_a_suit,_sleeping_in_the_back_seat---G_7.5_S_50---5---EDLoRA_Lester_Burnham_Cmix_B4_Iter1K_negprompt_pose.png"
+#     - "results/EDLoRA_Carolyn_Burnham_Cmix_B4_Iter1K/visualization/iters_EDLoRA_Carolyn_Burnham_Cmix_B4_Iter1K_negprompt_grounding_dino_pose/iters_EDLoRA_Carolyn_Burnham_Cmix_B4_Iter1K_negprompt/A <Carolyn_Burnham1> <Carolyn_Burnham2>, wearing a suit, driving the car/A_<Carolyn_Burnham1>_<Carolyn_Burnham2>,_wearing_a_suit,_driving_the_car---G_7.5_S_50---1---EDLoRA_Carolyn_Burnham_Cmix_B4_Iter1K_negprompt_pose.png"
+#     - "results/EDLoRA_Jane_Burnham_Cmix_B4_Iter1K/visualization/iters_EDLoRA_Jane_Burnham_Cmix_B4_Iter1K_negprompt_grounding_dino_pose/iters_EDLoRA_Jane_Burnham_Cmix_B4_Iter1K_negprompt/A <Jane_Burnham1> <Jane_Burnham2>, wearing a dark jacket, sitting in the front passenger seat/A_<Jane_Burnham1>_<Jane_Burnham2>,_wearing_a_dark_jacket,_sitting_in_the_front_passenger_seat---G_7.5_S_50---1---EDLoRA_Jane_Burnham_Cmix_B4_Iter1K_negprompt_pose.png"

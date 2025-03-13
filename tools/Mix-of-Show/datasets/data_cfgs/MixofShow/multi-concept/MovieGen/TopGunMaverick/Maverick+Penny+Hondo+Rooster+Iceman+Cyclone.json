@@ -1,0 +1,37 @@
+[{
+        "lora_path": "experiments/TopGunMaverick/Maverick/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Maverick1> <Maverick2>"
+    }
+,{
+        "lora_path": "experiments/TopGunMaverick/Penny/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Penny1> <Penny2>"
+    }
+,{
+        "lora_path": "experiments/TopGunMaverick/Hondo/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Hondo1> <Hondo2>"
+    }
+,{
+        "lora_path": "experiments/TopGunMaverick/Rooster/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Rooster1> <Rooster2>"
+    }
+,{
+        "lora_path": "experiments/TopGunMaverick/Iceman/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Iceman1> <Iceman2>"
+    }
+,{
+        "lora_path": "experiments/TopGunMaverick/Cyclone/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Cyclone1> <Cyclone2>"
+    }
+]

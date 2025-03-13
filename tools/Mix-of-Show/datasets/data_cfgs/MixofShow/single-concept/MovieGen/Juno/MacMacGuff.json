@@ -1,0 +1,7 @@
+[
+    {
+        "instance_prompt": "<TOK>",
+        "instance_data_dir": "/storage/wuweijia/MovieGen/MovieDirector/MovieDirector/dataset/Juno/character_list/MacMacGuff",
+        "caption_dir": "/storage/wuweijia/MovieGen/MovieDirector/MovieDirector/dataset/Juno/character_list/MacMacGuff"
+    }
+]

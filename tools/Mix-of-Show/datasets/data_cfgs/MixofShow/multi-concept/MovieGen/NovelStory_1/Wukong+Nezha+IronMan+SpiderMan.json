@@ -1,0 +1,25 @@
+[{
+        "lora_path": "experiments/NovelStory_1/Wukong/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Wukong1> <Wukong2>"
+    }
+,{
+        "lora_path": "experiments/NovelStory_1/Nezha/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Nezha1> <Nezha2>"
+    }
+,{
+        "lora_path": "experiments/NovelStory_1/IronMan/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<IronMan1> <IronMan2>"
+    }
+,{
+        "lora_path": "experiments/NovelStory_1/SpiderMan/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<SpiderMan1> <SpiderMan2>"
+    }
+]

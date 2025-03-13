@@ -68,8 +68,6 @@ pip install -r requirements.txt
 
 
 
-
-
 First, you need to prepare the `script synopsis of movie` and  `photo,audio of character` as follow:
 
 
@@ -100,63 +98,34 @@ The reasoning process using agents may involve various image and video generatio
 
 
 ### Image Gen. Model - ROICtrl 
-You can download the our weight from [Google drive](www.google.com) directly or train by yourself following the steps:
+You can train by yourself following the [Guidance]().
 
-```bash
-cd tools/Mix-of-Show
+Or download our weight directly:
+
 ```
-Step 1: generate the description for each character
-```bash
-bash Script/Step_1_generate_desc_char.sh
-```
+# download the ED lora for movie: Frozen II
+cd movie_agent/weight
+git lfs install
+git clone https://huggingface.co/weijiawu/MovieAgent-ROICtrl-Frozen
 
-Step 2: Generate the data .json file and .json file  for each Character to train the lora
-```bash
-bash Script/Step_2_generate_data_json_for_character.sh
-```
-
-Step 3: train lora for each character
-```bash
-export PYTHONPATH=/storage/wuweijia/MovieGen/MovieDirector/MovieDirector/tools/Mix-of-Show:$PYTHONPATH 
-
-for file in /storage/wuweijia/MovieGen/MovieDirector/MovieDirector/tools/Mix-of-Show/options/train/EDLoRA/MovieGen/InsideOut2/*.yml; do
-    CUDA_VISIBLE_DEVICES=2 accelerate launch train_edlora.py -opt "$file"
-done
+# download the ROICtrl adapter
+wget -P ROICtrl_sdv14_30K https://huggingface.co/guyuchao/ROICtrl/resolve/main/ROICtrl_sdv14_30K.safetensors
 ```
 
-
-Step 4: Generate config .json file for multi lora
-```bash
-bash Script/Step_4_generate_config_json_for_multi_lora.sh
-```
-
-Step 5: train multi lora 
-
-```bash
-bash train_lora_multi.sh
-```
-
-Step 6: Test
-
-```bash
-CUDA_VISIBLE_DEVICES=4  python sample_single_for_fusion.py
-```
-
-
+ROICtrl requires an environment with CUDA 12.1 and PyTorch 2.4.
 
 ### Image-Video Gen. Model - HunyuanVideo_I2V 
 Step 1: Download HunyuanVideo-I2V model
 ```bash
 python -m pip install "huggingface_hub[cli]"
 
-# Switch to the directory named 'HunyuanVideo-I2V'
-cd movie_agent/models/HunyuanVideo_I2V
-
 # Use the huggingface-cli tool to download HunyuanVideo-I2V model in HunyuanVideo-I2V/ckpts dir.
-huggingface-cli download tencent/HunyuanVideo-I2V --local-dir ./ckpts
+cd movie_agent/weight
+mkdir HunyuanVideo_I2V 
+huggingface-cli download tencent/HunyuanVideo-I2V --local-dir ./HunyuanVideo_I2V
 
 # Download Text Encoder.
-cd HunyuanVideo-I2V/ckpts
+cd HunyuanVideo_I2V
 huggingface-cli download xtuner/llava-llama-3-8b-v1_1-transformers --local-dir ./text_encoder_i2v
 huggingface-cli download openai/clip-vit-large-patch14 --local-dir ./text_encoder_2
 ```

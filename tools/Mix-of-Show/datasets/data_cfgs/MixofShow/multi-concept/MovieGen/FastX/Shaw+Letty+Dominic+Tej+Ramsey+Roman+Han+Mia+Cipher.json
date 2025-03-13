@@ -1,0 +1,55 @@
+[{
+        "lora_path": "experiments/FastX/Shaw/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Shaw1> <Shaw2>"
+    }
+,{
+        "lora_path": "experiments/FastX/Letty/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Letty1> <Letty2>"
+    }
+,{
+        "lora_path": "experiments/FastX/Dominic/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Dominic1> <Dominic2>"
+    }
+,{
+        "lora_path": "experiments/FastX/Tej/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Tej1> <Tej2>"
+    }
+,{
+        "lora_path": "experiments/FastX/Ramsey/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Ramsey1> <Ramsey2>"
+    }
+,{
+        "lora_path": "experiments/FastX/Roman/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Roman1> <Roman2>"
+    }
+,{
+        "lora_path": "experiments/FastX/Han/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Han1> <Han2>"
+    }
+,{
+        "lora_path": "experiments/FastX/Mia/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Mia1> <Mia2>"
+    }
+,{
+        "lora_path": "experiments/FastX/Cipher/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Cipher1> <Cipher2>"
+    }
+]

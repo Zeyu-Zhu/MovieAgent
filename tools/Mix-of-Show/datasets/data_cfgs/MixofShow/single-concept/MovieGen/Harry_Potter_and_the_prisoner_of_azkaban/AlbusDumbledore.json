@@ -1,0 +1,7 @@
+[
+    {
+        "instance_prompt": "<TOK>",
+        "instance_data_dir": "/storage/wuweijia/MovieGen/MovieDirector/MovieDirector/dataset/Harry_Potter_and_the_prisoner_of_azkaban/character_list/AlbusDumbledore",
+        "caption_dir": "/storage/wuweijia/MovieGen/MovieDirector/MovieDirector/dataset/Harry_Potter_and_the_prisoner_of_azkaban/character_list/AlbusDumbledore"
+    }
+]

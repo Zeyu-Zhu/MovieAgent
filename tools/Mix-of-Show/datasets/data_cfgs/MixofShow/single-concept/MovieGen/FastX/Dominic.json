@@ -1,0 +1,7 @@
+[
+    {
+        "instance_prompt": "<TOK>",
+        "instance_data_dir": "/storage/wuweijia/MovieGen/MovieDirector/MovieDirector/dataset/FastX/character_list/Dominic",
+        "caption_dir": "/storage/wuweijia/MovieGen/MovieDirector/MovieDirector/dataset/FastX/character_list/Dominic"
+    }
+]

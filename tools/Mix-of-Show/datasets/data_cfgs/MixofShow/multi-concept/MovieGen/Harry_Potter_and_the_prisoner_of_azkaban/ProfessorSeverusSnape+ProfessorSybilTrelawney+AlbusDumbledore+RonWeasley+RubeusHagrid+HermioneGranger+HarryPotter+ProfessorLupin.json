@@ -1,0 +1,49 @@
+[{
+        "lora_path": "experiments/Harry_Potter_and_the_prisoner_of_azkaban/ProfessorSeverusSnape/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<ProfessorSeverusSnape1> <ProfessorSeverusSnape2>"
+    }
+,{
+        "lora_path": "experiments/Harry_Potter_and_the_prisoner_of_azkaban/ProfessorSybilTrelawney/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<ProfessorSybilTrelawney1> <ProfessorSybilTrelawney2>"
+    }
+,{
+        "lora_path": "experiments/Harry_Potter_and_the_prisoner_of_azkaban/AlbusDumbledore/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<AlbusDumbledore1> <AlbusDumbledore2>"
+    }
+,{
+        "lora_path": "experiments/Harry_Potter_and_the_prisoner_of_azkaban/RonWeasley/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<RonWeasley1> <RonWeasley2>"
+    }
+,{
+        "lora_path": "experiments/Harry_Potter_and_the_prisoner_of_azkaban/RubeusHagrid/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<RubeusHagrid1> <RubeusHagrid2>"
+    }
+,{
+        "lora_path": "experiments/Harry_Potter_and_the_prisoner_of_azkaban/HermioneGranger/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<HermioneGranger1> <HermioneGranger2>"
+    }
+,{
+        "lora_path": "experiments/Harry_Potter_and_the_prisoner_of_azkaban/HarryPotter/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<HarryPotter1> <HarryPotter2>"
+    }
+,{
+        "lora_path": "experiments/Harry_Potter_and_the_prisoner_of_azkaban/ProfessorLupin/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<ProfessorLupin1> <ProfessorLupin2>"
+    }
+]

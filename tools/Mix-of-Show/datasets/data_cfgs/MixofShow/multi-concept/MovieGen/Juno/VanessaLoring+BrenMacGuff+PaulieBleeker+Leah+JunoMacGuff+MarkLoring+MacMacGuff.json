@@ -1,0 +1,43 @@
+[{
+        "lora_path": "experiments/Juno/VanessaLoring/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<VanessaLoring1> <VanessaLoring2>"
+    }
+,{
+        "lora_path": "experiments/Juno/BrenMacGuff/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<BrenMacGuff1> <BrenMacGuff2>"
+    }
+,{
+        "lora_path": "experiments/Juno/PaulieBleeker/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<PaulieBleeker1> <PaulieBleeker2>"
+    }
+,{
+        "lora_path": "experiments/Juno/Leah/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Leah1> <Leah2>"
+    }
+,{
+        "lora_path": "experiments/Juno/JunoMacGuff/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<JunoMacGuff1> <JunoMacGuff2>"
+    }
+,{
+        "lora_path": "experiments/Juno/MarkLoring/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<MarkLoring1> <MarkLoring2>"
+    }
+,{
+        "lora_path": "experiments/Juno/MacMacGuff/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<MacMacGuff1> <MacMacGuff2>"
+    }
+]

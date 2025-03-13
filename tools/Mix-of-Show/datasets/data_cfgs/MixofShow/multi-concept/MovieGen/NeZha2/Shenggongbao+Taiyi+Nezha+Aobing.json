@@ -1,0 +1,25 @@
+[{
+        "lora_path": "experiments/NeZha2/Shenggongbao/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Shenggongbao1> <Shenggongbao2>"
+    }
+,{
+        "lora_path": "experiments/NeZha2/Taiyi/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Taiyi1> <Taiyi2>"
+    }
+,{
+        "lora_path": "experiments/NeZha2/Nezha/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Nezha1> <Nezha2>"
+    }
+,{
+        "lora_path": "experiments/NeZha2/Aobing/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Aobing1> <Aobing2>"
+    }
+]

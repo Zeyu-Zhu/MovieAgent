@@ -1,0 +1,37 @@
+[{
+        "lora_path": "experiments/DespicableMe4/Minions/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Minions1> <Minions2>"
+    }
+,{
+        "lora_path": "experiments/DespicableMe4/Prescott/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Prescott1> <Prescott2>"
+    }
+,{
+        "lora_path": "experiments/DespicableMe4/Gru/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Gru1> <Gru2>"
+    }
+,{
+        "lora_path": "experiments/DespicableMe4/Lucy/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Lucy1> <Lucy2>"
+    }
+,{
+        "lora_path": "experiments/DespicableMe4/Valentina/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Valentina1> <Valentina2>"
+    }
+,{
+        "lora_path": "experiments/DespicableMe4/Maxime/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Maxime1> <Maxime2>"
+    }
+]

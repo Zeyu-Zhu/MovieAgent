@@ -1,0 +1,25 @@
+[{
+        "lora_path": "experiments/Deadpool/Deadpool/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Deadpool1> <Deadpool2>"
+    }
+,{
+        "lora_path": "experiments/Deadpool/Paradox/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Paradox1> <Paradox2>"
+    }
+,{
+        "lora_path": "experiments/Deadpool/Wolverine/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Wolverine1> <Wolverine2>"
+    }
+,{
+        "lora_path": "experiments/Deadpool/Emma/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Emma1> <Emma2>"
+    }
+]

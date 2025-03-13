@@ -1,0 +1,7 @@
+[
+    {
+        "instance_prompt": "<TOK>",
+        "instance_data_dir": "/storage/wuweijia/MovieGen/MovieDirector/MovieDirector/dataset/TopGunMaverick/character_list/Rooster",
+        "caption_dir": "/storage/wuweijia/MovieGen/MovieDirector/MovieDirector/dataset/TopGunMaverick/character_list/Rooster"
+    }
+]

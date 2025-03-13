@@ -1,0 +1,128 @@
+output_dir: /root/STORY-ours/output_stories/gpt-4_1024x512/Write a short story about 2 man and 1 girl, miyoshi and tazaki are men and hayasaka is the girl/replicate_0/composed_keypose
+image_width: 1024
+
+layout1:
+  output_image: "layout_keypose_1.png"
+  box_layout:
+    - [97, 102, 160, 353]
+    - [324, 85, 152, 370]
+    - [521, 96, 176, 359]
+  keypose_path:
+    - /root/STORY-ours/output_stories/gpt-4_1024x512/Write a short story about 2 man and 1 girl, miyoshi and tazaki are men and hayasaka is the girl/replicate_0/single_keypose/output_miyoshi/iters_EDLoRA_miyoshi_negprompt/<miyoshi1> <miyoshi2>, standing/<miyoshi1>_<miyoshi2>,_standing---G_7.5_S_50---5---EDLoRA_miyoshi_negprompt_pose.png
+    - /root/STORY-ours/output_stories/gpt-4_1024x512/Write a short story about 2 man and 1 girl, miyoshi and tazaki are men and hayasaka is the girl/replicate_0/single_keypose/output_tazaki/iters_EDLoRA_tazaki_negprompt/<tazaki1> <tazaki2>, standing/<tazaki1>_<tazaki2>,_standing---G_7.5_S_50---5---EDLoRA_tazaki_negprompt_pose.png
+    - /root/STORY-ours/output_stories/gpt-4_1024x512/Write a short story about 2 man and 1 girl, miyoshi and tazaki are men and hayasaka is the girl/replicate_0/single_keypose/output_hayasaka/iters_EDLoRA_hayasaka_negprompt/<hayasaka1> <hayasaka2>, standing/<hayasaka1>_<hayasaka2>,_standing---G_7.5_S_50---9---EDLoRA_hayasaka_negprompt_pose.png
+
+layout2:
+  output_image: "layout_keypose_2.png"
+  box_layout:
+    - [208, 48, 302, 450]
+  keypose_path:
+    - /root/STORY-ours/output_stories/gpt-4_1024x512/Write a short story about 2 man and 1 girl, miyoshi and tazaki are men and hayasaka is the girl/replicate_0/single_keypose/output_miyoshi/iters_EDLoRA_miyoshi_negprompt/<miyoshi1> <miyoshi2>, pointing/<miyoshi1>_<miyoshi2>,_pointing---G_7.5_S_50---4---EDLoRA_miyoshi_negprompt.png
+
+
+layout3:
+  output_image: "layout_keypose_3.png"
+  box_layout:
+    - [76, 30, 255, 430]
+    - [332, 28, 267, 442]
+  keypose_path:
+    - /root/STORY-ours/output_stories/gpt-4_1024x512/Write a short story about 2 man and 1 girl, miyoshi and tazaki are men and hayasaka is the girl/replicate_0/single_keypose/output_tazaki/iters_EDLoRA_tazaki_negprompt/<tazaki1> <tazaki2>, waving/<tazaki1>_<tazaki2>,_waving---G_7.5_S_50---2---EDLoRA_tazaki_negprompt_pose.png
+    - /root/STORY-ours/output_stories/gpt-4_1024x512/Write a short story about 2 man and 1 girl, miyoshi and tazaki are men and hayasaka is the girl/replicate_0/single_keypose/output_hayasaka/iters_EDLoRA_hayasaka_negprompt/<hayasaka1> <hayasaka2>, pointing/<hayasaka1>_<hayasaka2>,_pointing---G_7.5_S_50---1---EDLoRA_hayasaka_negprompt_pose.png
+
+
+layout4:
+  output_image: "layout_keypose_4.png"
+  box_layout:
+    - [97, 102, 160, 353]
+    - [324, 85, 152, 370]
+    - [521, 96, 176, 359]
+  keypose_path:
+    - /root/STORY-ours/output_stories/gpt-4_1024x512/Write a short story about 2 man and 1 girl, miyoshi and tazaki are men and hayasaka is the girl/replicate_0/single_keypose/output_tazaki/iters_EDLoRA_tazaki_negprompt/<tazaki1> <tazaki2>, walking/<tazaki1>_<tazaki2>,_walking---G_7.5_S_50---6---EDLoRA_tazaki_negprompt_pose.png
+    - /root/STORY-ours/output_stories/gpt-4_1024x512/Write a short story about 2 man and 1 girl, miyoshi and tazaki are men and hayasaka is the girl/replicate_0/single_keypose/output_hayasaka/iters_EDLoRA_hayasaka_negprompt/<hayasaka1> <hayasaka2>, walking/<hayasaka1>_<hayasaka2>,_walking---G_7.5_S_50---2---EDLoRA_hayasaka_negprompt_pose.png
+    - /root/STORY-ours/output_stories/gpt-4_1024x512/Write a short story about 2 man and 1 girl, miyoshi and tazaki are men and hayasaka is the girl/replicate_0/single_keypose/output_miyoshi/iters_EDLoRA_miyoshi_negprompt/<miyoshi1> <miyoshi2>, walking/<miyoshi1>_<miyoshi2>,_walking---G_7.5_S_50---4---EDLoRA_miyoshi_negprompt_pose.png
+
+layout5:
+  output_image: "layout_keypose_5.png"
+  box_layout:
+    - [52, 85, 210, 390]
+  keypose_path:
+    - /root/STORY-ours/output_stories/gpt-4_1024x512/Write a short story about 2 man and 1 girl, miyoshi and tazaki are men and hayasaka is the girl/replicate_0/single_keypose/output_hayasaka/iters_EDLoRA_hayasaka_negprompt/<hayasaka1> <hayasaka2>, crouching/<hayasaka1>_<hayasaka2>,_crouching---G_7.5_S_50---3---EDLoRA_hayasaka_negprompt_pose.png
+
+layout6:
+  output_image: "layout_keypose_6.png"
+  box_layout:
+    - [50, 50, 200, 462]
+    - [300, 60, 200, 452]
+    - [600, 100, 180, 412]
+  keypose_path:
+    - /root/STORY-ours/output_stories/gpt-4_1024x512/Write a short story about 2 man and 1 girl, miyoshi and tazaki are men and hayasaka is the girl/replicate_0/single_keypose/output_miyoshi/iters_EDLoRA_miyoshi_negprompt/<miyoshi1> <miyoshi2>, pointing/<miyoshi1>_<miyoshi2>,_pointing---G_7.5_S_50---10---EDLoRA_miyoshi_negprompt_pose.png
+    - /root/STORY-ours/output_stories/gpt-4_1024x512/Write a short story about 2 man and 1 girl, miyoshi and tazaki are men and hayasaka is the girl/replicate_0/single_keypose/output_tazaki/iters_EDLoRA_tazaki_negprompt/<tazaki1> <tazaki2>, walking/<tazaki1>_<tazaki2>,_walking---G_7.5_S_50---10---EDLoRA_tazaki_negprompt_pose.png
+    - /root/STORY-ours/output_stories/gpt-4_1024x512/Write a short story about 2 man and 1 girl, miyoshi and tazaki are men and hayasaka is the girl/replicate_0/single_keypose/output_hayasaka/iters_EDLoRA_hayasaka_negprompt/<hayasaka1> <hayasaka2>, waving/<hayasaka1>_<hayasaka2>,_waving---G_7.5_S_50---4---EDLoRA_hayasaka_negprompt.png
+
+layout7:
+  output_image: "layout_keypose_7.png"
+  box_layout:
+    - [240, 85, 280, 427]
+  keypose_path:
+    - /root/STORY-ours/output_stories/gpt-4_1024x512/Write a short story about 2 man and 1 girl, miyoshi and tazaki are men and hayasaka is the girl/replicate_0/single_keypose/output_tazaki/iters_EDLoRA_tazaki_negprompt/<tazaki1> <tazaki2>, pointing/<tazaki1>_<tazaki2>,_pointing---G_7.5_S_50---1---EDLoRA_tazaki_negprompt.png
+
+layout8:
+  output_image: "layout_keypose_8.png"
+  box_layout:
+    - [14, 52, 197, 450]
+    - [232, 17, 203, 485]
+    - [456, 44, 182, 468]
+  keypose_path:
+    - /root/STORY-ours/output_stories/gpt-4_1024x512/Write a short story about 2 man and 1 girl, miyoshi and tazaki are men and hayasaka is the girl/replicate_0/single_keypose/output_tazaki/iters_EDLoRA_tazaki_negprompt/<tazaki1> <tazaki2>, pointing/<tazaki1>_<tazaki2>,_pointing---G_7.5_S_50---5---EDLoRA_tazaki_negprompt_pose.png
+    - /root/STORY-ours/output_stories/gpt-4_1024x512/Write a short story about 2 man and 1 girl, miyoshi and tazaki are men and hayasaka is the girl/replicate_0/single_keypose/output_miyoshi/iters_EDLoRA_miyoshi_negprompt/<miyoshi1> <miyoshi2>, pointing/<miyoshi1>_<miyoshi2>,_pointing---G_7.5_S_50---10---EDLoRA_miyoshi_negprompt_pose.png
+    - /root/STORY-ours/output_stories/gpt-4_1024x512/Write a short story about 2 man and 1 girl, miyoshi and tazaki are men and hayasaka is the girl/replicate_0/single_keypose/output_hayasaka/iters_EDLoRA_hayasaka_negprompt/<hayasaka1> <hayasaka2>, walking/<hayasaka1>_<hayasaka2>,_walking---G_7.5_S_50---5---EDLoRA_hayasaka_negprompt.png
+
+layout9:
+  output_image: "layout_keypose_9.png"
+  box_layout:
+    - [45, 95, 200, 417]
+    - [245, 80, 207, 432]
+    - [666, 89, 224, 423]
+  keypose_path:
+    - /root/STORY-ours/output_stories/gpt-4_1024x512/Write a short story about 2 man and 1 girl, miyoshi and tazaki are men and hayasaka is the girl/replicate_0/single_keypose/output_tazaki/iters_EDLoRA_tazaki_negprompt/<tazaki1> <tazaki2>, waving/<tazaki1>_<tazaki2>,_waving---G_7.5_S_50---8---EDLoRA_tazaki_negprompt_pose.png
+    - /root/STORY-ours/output_stories/gpt-4_1024x512/Write a short story about 2 man and 1 girl, miyoshi and tazaki are men and hayasaka is the girl/replicate_0/single_keypose/output_miyoshi/iters_EDLoRA_miyoshi_negprompt/<miyoshi1> <miyoshi2>, sitting/<miyoshi1>_<miyoshi2>,_sitting---G_7.5_S_50---1---EDLoRA_miyoshi_negprompt.png
+    - /root/STORY-ours/output_stories/gpt-4_1024x512/Write a short story about 2 man and 1 girl, miyoshi and tazaki are men and hayasaka is the girl/replicate_0/single_keypose/output_hayasaka/iters_EDLoRA_hayasaka_negprompt/<hayasaka1> <hayasaka2>, waving/<hayasaka1>_<hayasaka2>,_waving---G_7.5_S_50---6---EDLoRA_hayasaka_negprompt_pose.png
+
+
+layout11:
+  output_image: "layout_keypose_11.png"
+  box_layout:
+    - [76, 30, 361, 482]
+  keypose_path:
+    - /root/STORY-ours/output_stories/gpt-4_1024x512/Write a short story about 2 man and 1 girl, miyoshi and tazaki are men and hayasaka is the girl/replicate_0/single_keypose/output_hayasaka/iters_EDLoRA_hayasaka_negprompt/<hayasaka1> <hayasaka2>, pointing/<hayasaka1>_<hayasaka2>,_pointing---G_7.5_S_50---8---EDLoRA_hayasaka_negprompt.png
+
+layout12:
+  output_image: "layout_keypose_12.png"
+  box_layout:
+    - [102, 112, 280, 400]
+    - [382, 98, 254, 414]
+    - [636, 95, 275, 417]
+  keypose_path:
+    - /root/STORY-ours/output_stories/gpt-4_1024x512/Write a short story about 2 man and 1 girl, miyoshi and tazaki are men and hayasaka is the girl/replicate_0/single_keypose/output_miyoshi/iters_EDLoRA_miyoshi_negprompt/<miyoshi1> <miyoshi2>, standing/<miyoshi1>_<miyoshi2>,_standing---G_7.5_S_50---2---EDLoRA_miyoshi_negprompt_pose.png
+    - /root/STORY-ours/output_stories/gpt-4_1024x512/Write a short story about 2 man and 1 girl, miyoshi and tazaki are men and hayasaka is the girl/replicate_0/single_keypose/output_tazaki/iters_EDLoRA_tazaki_negprompt/<tazaki1> <tazaki2>, standing/<tazaki1>_<tazaki2>,_standing---G_7.5_S_50---1---EDLoRA_tazaki_negprompt_pose.png
+    - /root/STORY-ours/output_stories/gpt-4_1024x512/Write a short story about 2 man and 1 girl, miyoshi and tazaki are men and hayasaka is the girl/replicate_0/single_keypose/output_hayasaka/iters_EDLoRA_hayasaka_negprompt/<hayasaka1> <hayasaka2>, crouching/<hayasaka1>_<hayasaka2>,_crouching---G_7.5_S_50---1---EDLoRA_hayasaka_negprompt_pose.png
+
+layout13:
+  output_image: "layout_keypose_13.png"
+  box_layout:
+    - [107, 23, 202, 489]
+    - [343, 17, 199, 495]
+    - [569, 9, 213, 503]
+  keypose_path:
+    - /root/STORY-ours/output_stories/gpt-4_1024x512/Write a short story about 2 man and 1 girl, miyoshi and tazaki are men and hayasaka is the girl/replicate_0/single_keypose/output_tazaki/iters_EDLoRA_tazaki_negprompt/<tazaki1> <tazaki2>, standing/<tazaki1>_<tazaki2>,_standing---G_7.5_S_50---5---EDLoRA_tazaki_negprompt.png
+    - /root/STORY-ours/output_stories/gpt-4_1024x512/Write a short story about 2 man and 1 girl, miyoshi and tazaki are men and hayasaka is the girl/replicate_0/single_keypose/output_hayasaka/iters_EDLoRA_hayasaka_negprompt/<hayasaka1> <hayasaka2>, pointing/<hayasaka1>_<hayasaka2>,_pointing---G_7.5_S_50---3---EDLoRA_hayasaka_negprompt_pose.png
+    - /root/STORY-ours/output_stories/gpt-4_1024x512/Write a short story about 2 man and 1 girl, miyoshi and tazaki are men and hayasaka is the girl/replicate_0/single_keypose/output_miyoshi/iters_EDLoRA_miyoshi_negprompt/<miyoshi1> <miyoshi2>, sitting/<miyoshi1>_<miyoshi2>,_sitting---G_7.5_S_50---6---EDLoRA_miyoshi_negprompt_pose.png
+
+# layout2:
+#   output_image: "layout_keypose_2.png"
+#   box_layout:
+#     - [0.408828125, 0.1, 0.990234375, 0.997265625]
+#     - [0.169921875, 0.255859375, 0.4591796875, 0.754375]
+#   keypose_path:
+#     - mmpose/outputs/hina/A_running_<hina1>_<hina2>---G_7/image_crop_pose.png
+#     - mmpose/outputs/hina/A_jumping_<hina1>_<hina2>---G_7/image_crop_pose.png

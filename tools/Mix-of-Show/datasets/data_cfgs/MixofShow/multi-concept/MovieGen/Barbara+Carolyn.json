@@ -1,0 +1,14 @@
+[
+    {
+        "lora_path": "experiments/8101_EDLoRA_Barbara_Fitts_Cmix_B4_Repeat500/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0, 
+        "text_encoder_alpha": 1.0, 
+        "concept_name": "<Barbara_Fitts1> <Barbara_Fitts2>"
+    },
+    {
+        "lora_path": "experiments/8101_EDLoRA_Carolyn_Burnham_Cmix_B4_Repeat500/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Carolyn_Burnham1> <Carolyn_Burnham2>"
+    }
+]

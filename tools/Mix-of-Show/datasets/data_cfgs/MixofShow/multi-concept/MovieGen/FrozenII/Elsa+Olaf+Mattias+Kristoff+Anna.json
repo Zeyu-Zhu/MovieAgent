@@ -1,0 +1,31 @@
+[{
+        "lora_path": "experiments/FrozenII/Elsa/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Elsa1> <Elsa2>"
+    }
+,{
+        "lora_path": "experiments/FrozenII/Olaf/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Olaf1> <Olaf2>"
+    }
+,{
+        "lora_path": "experiments/FrozenII/Mattias/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Mattias1> <Mattias2>"
+    }
+,{
+        "lora_path": "experiments/FrozenII/Kristoff/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Kristoff1> <Kristoff2>"
+    }
+,{
+        "lora_path": "experiments/FrozenII/Anna/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<Anna1> <Anna2>"
+    }
+]
