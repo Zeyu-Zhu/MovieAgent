@@ -28,7 +28,7 @@
 
 <!--- [ ] Mar. 13, 2024. Release the train code in **three month**.-->
 
-- [ ] Mar. 18, 2024. Release the inference code.
+- [x] Mar. 18, 2024. Release the inference code (Our method is training-free.).
 - [x] Mar. 10, 2025. Rep initialization (No code).
 
 
