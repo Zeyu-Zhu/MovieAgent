@@ -133,7 +133,7 @@ huggingface-cli download openai/clip-vit-large-patch14 --local-dir ./text_encode
 
 ### Generate Movie/Long Video
 
-Gnerate the long video with MovieDirector:
+Generate the long video with MovieDirector:
 ```bash
 cd movie_agent
 sh script/run.sh
