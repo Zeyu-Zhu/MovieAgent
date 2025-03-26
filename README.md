@@ -64,7 +64,7 @@ pip install -r requirements.txt
 
 
 <a name="usage"></a>
-## Model and Data Preparation
+## Model and Data Preparation (Only for training EDLora, Just skip here for directly inference)
 
 
 
